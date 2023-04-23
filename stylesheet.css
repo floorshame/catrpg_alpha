@@ -23,3 +23,11 @@ html {
     box-sizing: border-box;
     background-color: rgb(var(--bg_focus));
 }
+
+.boxTop {
+    background-color: rgb(var(--bg));
+    padding: 7px;
+}
+.boxBottom {
+    padding: 7px;
+}
