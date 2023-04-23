@@ -23,6 +23,10 @@ html {
     box-sizing: border-box;
     background-color: rgb(var(--bg_focus));
 }
+.sideBar_top {
+    border-bottom: 2px solid white;
+    border-image: linear-graident(rgb(var(--ac)), #00000000) 1;
+}
 
 .boxTop {
     background-color: rgb(var(--bg));
