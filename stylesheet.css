@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 :root {
     --bg: 40, 40, 40;
     --bg_focus: 64, 64, 64;
-    --ac: 255, 0, 0;
+    --ac: 100, 60, 250;
     --txt: 255, 255, 255;
 }
 
@@ -27,6 +28,12 @@ html {
     border-bottom: 2px solid white;
     border-image: linear-gradient(90deg, rgb(var(--ac)), #00000000) 1;
 }
+.sideBar_logo {
+    color: rgb(var(--txt));
+    font-family: 'Fredoka', sans-serif;
+    font-size: 28px;
+}
+
 
 .boxTop {
     background-color: rgb(var(--bg));
