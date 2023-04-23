@@ -34,6 +34,14 @@ html {
     font-size: 28px;
 }
 
+.page {
+    top: 0;
+    left: 0;
+    margin-left: 27%;
+    position: fixed;
+    color: rgb(var(--txt));
+}
+
 
 .boxTop {
     background-color: rgb(var(--bg));

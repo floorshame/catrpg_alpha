@@ -3,7 +3,7 @@ save = {
 }
 
 game = {
-    "version": "ss-1",
+    "version": "ss-2",
     "tabs": {
         "home": true,
         "inventory": false,
