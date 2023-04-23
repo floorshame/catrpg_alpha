@@ -25,7 +25,7 @@ html {
 }
 .sideBar_top {
     border-bottom: 2px solid white;
-    border-image: linear-gradient(rgb(var(--ac)), white) 1;
+    border-image: linear-gradient(90deg, rgb(var(--ac)), #00000000) 1;
 }
 
 .boxTop {
