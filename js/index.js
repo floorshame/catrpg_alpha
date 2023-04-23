@@ -1,6 +1,6 @@
 document.title = `catrpg.${game["version"]}`;
 
-function upadte(dot) {
+function update(dot) {
     if (dot == "all" || dot == "tabs") {
         for (let i = 0; i < Object.getOwnPropertyNames(game["tabs"]).length; i++) {
             if (game["tabs"][Object.getOwnPropertyNames(game["tabs"])[i]] == false) {
