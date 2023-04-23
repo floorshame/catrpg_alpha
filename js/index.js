@@ -6,7 +6,7 @@ function update(dot) {
             if (game["tabs"][Object.getOwnPropertyNames(game["tabs"])[i]] == false) {
                 document.getElementById(`page_${Object.getOwnPropertyNames(game['tabs'])[i]}`).style.display = 'none'
             } else {
-                document.getElementById(`page_${Object.getOwnPropertyNames(game['i'])[i]}`).style.display = ''
+                document.getElementById(`page_${Object.getOwnPropertyNames(game['tabs'])[i]}`).style.display = ''
             }
         }
     }
