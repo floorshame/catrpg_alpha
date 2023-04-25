@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+:root {
+	--bg: 48, 48, 48;
+	--bg_focus: 60, 60, 60;
+	--ac: 255, 100, 100;
+	--txt: 255, 255, 255;
+	--bs: 0, 0, 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: rgb(var(--bg));
+}
+.sideBar {
+	box-sizing: border-box;
+	width: 25%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: rgb(var(--bg_focus));
+	border-image: linear-gradient(90deg, rgb(var(--ac)), #00000000) 1;
+	border-top: 2px solid white;
+	box-shadow: 0px 0px 5px rgb(var(--bs));
+}
+.sideBar_logo {
+	font-family: 'Fredoka', sans-serif;
+	color: rgb(var(--txt));
+	font-size: 32px;
+}
+.sideBar_button {
+	background-color: transparent;
+	border: 0px solid transparent;
+	border-left: 2px solid transparent;
+	color: rgb(var(--txt));
+	font-family: 'Fredoka', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	padding: 7px;
+	transition: 0.3s;
+	text-align: left;
+}
+.sideBar_button:hover {
+	background-color: rgb(var(--bg));
+}
+.sideBar_buttonActive {
+	border-left: 2px solid rgb(var(--ac));
+}
+.sideBar_version {
+	top: 0;
+	right: 0;
+	position: absolute;
+	font-family: 'Fredoka', sans-serif;
+	color: rgb(var(--ac));
+	text-shadow: 0px 0px 5px rgb(var(--ac));
+	margin: 5px
+}
+.boxTop {
+	padding: 7px;
+	background-color: rgb(var(--bg));
+
+}
+.boxTop_text {
+	color: rgb(var(--txt));
+	font-family: 'Fredoka', sans-serif;
+	font-size: 18px;
+}
+.boxBottom {
+	padding: 7px;
+	height: 100%;
+}
+.twentytwoBox {
+	width: 22%;
+	margin-top: 7%;
+	background-color: rgb(var(--bg_focus));
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 2%;
+	box-shadow: 0px 0px 5px rgb(var(--bs));
+}
+/* .boxSixty {
+	width: 60%;
+	margin-left: 7%;
+	margin-top: 7%;
+	background-color: rgb(var(--bg_focus));
+	height: 60%;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 5px rgb(var(--bs));
+} */
+.page {
+	top: 0;
+	left: 0;
+	position: fixed;
+	margin-left: 25%;
+	color: rgb(var(--txt));
+	width: 100%;
+	height: 100%;
+}
+
+
+.nodeButton_1 {
+	width: 100%;
+	background-color: transparent;
+	font-family: 'Fredoka', sans-serif;
+	border: 1px solid transparent;
+	color: rgb(var(--txt));
+	transition: 0.3s;
+	font-size: 16px;
+	padding: 5px;
+}
+.nodeButton_1:hover {
+	background-color: rgb(var(--bg));
+}
+.nodeButtonActive_1 {
+	border-top: 2px solid rgb(var(--ac));
+}
